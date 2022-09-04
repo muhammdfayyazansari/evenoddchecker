@@ -9,11 +9,14 @@
 </head>
 
 <body>
-  <h1>fayyaz</h1>
+  <h1>Muhammad fayyaz Ansari</h1>
+  <h1 id="result"></h1>
   <script>
     let num = +prompt("enter your value for checking your number is even or odd");
+    let a = document.querySelector("#result");
     let result = num%2;
-    alert("if output is 1 then your number is odd \nif output is 0 then your number is even \noutput = "+ result)
+    a.innerHTML = "Your result is : " + result;
+    alert("if result is 1 then your number is odd \nif result is 0 then your number is even")
   </script>
 </body>
 
